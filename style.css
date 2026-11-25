@@ -394,3 +394,43 @@ footer {
         padding: 18px;
     }
 }
+
+
+
+/*Project Links*/
+
+.project-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.project-links a{
+    display: inline-block;
+    padding: 9px 18px;
+    background-color: #172554;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.project-links a:hover{
+    background-color: #2563eb;
+    transform: translateY(-3px);
+}
+
+
+/* Project Status */
+
+.project-status {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 6px 14px;
+    background-color: #fef3c7;
+    color: #92400e;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
